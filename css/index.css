@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;400;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    transition: .5s;
+    font-family: 'Battambang', cursive;
+}
+
+/*Navbar*/
+
+.navbar{
+    box-shadow: 0px 0px 30px gray;
+    height: 120px;
+    background: white;
+    position: relative;
+}
+.nav-bar ul{
+    display: flex;
+}
+.nav-bar ul li{
+    list-style-type: none;
+    padding: 20px;
+}
+.nav-bar ul li:hover{
+    background:  rgb(8, 53, 95);
+    color: white;
+    font-weight: bold;
+    border-radius: 1rem;
+    height: 70px;
+    
+}
+.navbar .about-bar{
+    background:  rgb(8, 53, 95);
+    width: 100%;
+    position: absolute;
+    top: 120px; 
+    left: 0; 
+    display: none;
+}
+.navbar .about-bar ul li a{
+    color: white;
+}
+.navbar:hover{
+    display: block;
+}
+.navbar .main-about-bar:hover .about-bar{
+    display: block;
+}
+.navbar .main-about-bar .about-bar ul li:hover{
+    background-color:  rgb(247, 102, 6);
+}
+.navbar .about-bar ul{
+    align-items: center;
+    margin-left: 600px;
+}
+
+/*product bar*/
+.navbar .product-bar{
+    background:  rgb(8, 53, 95);
+    width: 100%;
+    position: absolute;
+    top: 120px; 
+    left: 0; 
+    display: none;
+}
+.navbar .product-bar ul li a{
+    color: white;
+}
+.navbar:hover{
+    display: block;
+}
+.navbar .main-product-bar:hover .product-bar{
+    display: block;
+}
+.navbar .main-product-bar .product-bar ul li:hover{
+    background-color:  rgb(247, 102, 6);
+}
+.navbar .product-bar ul{
+    align-items: center;
+    margin-left: 600px;
+}
+/*service bar*/
+.navbar .service-bar{
+    background:  rgb(8, 53, 95);
+    width: 100%;
+    position: absolute;
+    top: 120px; 
+    left: 0; 
+    display: none;
+}
+.navbar .service-bar ul li a{
+    color: white;
+}
+.navbar:hover{
+    display: block;
+}
+.navbar .main-service-bar:hover .service-bar{
+    display: block;
+}
+.navbar .main-service-bar .service-bar ul li:hover{
+    background-color:  rgb(247, 102, 6);
+}
+.navbar .service-bar ul{
+    align-items: center;
+    margin-left: 600px;
+}
+/*contact bar*/
+.navbar .contact-bar{
+    background:  rgb(8, 53, 95);
+    width: 100%;
+    position: absolute;
+    top: 120px; 
+    left: 0; 
+    display: none;
+}
+.navbar .contact-bar ul li a{
+    color: white;
+}
+.navbar:hover{
+    display: block;
+}
+.navbar .main-contact-bar:hover .contact-bar{
+    display: block;
+}
+.navbar .main-contact-bar .contact-bar ul li:hover{
+    background-color:  rgb(247, 102, 6);
+}
+.navbar .contact-bar ul{
+    align-items: center;
+    margin-left: 600px;
+}
+
+
+
+
+.nav-bar a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+.nav-bar a:hover{
+    color: white;
+    font-weight: bold;
+}
+.navbar .search-logo{
+    font-size: 20px;
+    color:  rgb(8, 53, 95);
+    cursor: pointer;
+    margin-left: 10px;
+}
+.navbar .khmer-drop a{
+    color:  rgb(247, 102, 6);
+    
+}
+.navbar .khmer-drop li:hover{
+    background: white;
+}
+
+/*slide-show*/
+.slide-show{
+    margin-top: 120px;
+}
+
+/*Search section*/
+.bg-search{
+    background: rgb(8, 53, 95);
+    height: 60px;
+    cursor: pointer;
+}
+.bg-search h5{
+    color: white;
+    line-height: 60px;
+}
+.bg-search input{
+    border: 1px solid white;
+    background-color: rgb(8, 53, 95);
+    width: 250px;
+    height: 30px;
+    position: absolute;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.bg-search i{
+    position: relative;
+    margin-left: 230px;
+
+}
+
+/*about*/
+.title-about{
+    color: rgb(8, 53, 95);
+}
+.see-more i{
+    background: rgb(247, 102, 6);
+    border-radius: 0.5rem;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.see-more span{
+    cursor: pointer;
+}
+
+/*Phillip life dash*/
+.life-dash{
+    background-color: rgb(8, 53, 95);
+    height: 200px;
+    box-shadow: 0px 0px 10px gray;
+    border-right: 10px solid rgb(247, 102, 6);
+}
+.life-dash:hover{
+    box-shadow: 0px 0px 30px gray;
+    margin: -5px;
+}
+.life-dash .row{
+    height: 200px;
+}
+.life-dash h1{
+    color: white;
+}
+.life-dash button{
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 160px;
+    border-right: 3px solid rgb(247, 102, 6);
+}
+/*mission life dash*/
+.mission-dash{
+    background-color: white;
+    height: 200px;
+    box-shadow: 0px 0px 10px gray;
+    border-right: 10px solid rgb(247, 102, 6);
+}
+.mission-dash:hover{
+    box-shadow: 0px 0px 30px gray;
+    margin: -5px;
+}
+.mission-dash .row{
+    height: 200px;
+}
+.mission-dash h1{
+    color:  rgb(8, 53, 95);
+    font-weight: bold;
+}
+.mission-dash button{
+    background: none;
+    border: none;
+    color:  rgb(8, 53, 95);
+    cursor: pointer;
+    margin-top: 160px;
+}
+/*value life dash*/
+.value-dash{
+    background-color: rgb(8, 53, 95);
+    height: 200px;
+    box-shadow: 0px 0px 10px gray;
+    border-right: 10px solid rgb(247, 102, 6);
+}
+.value-dash:hover{
+    box-shadow: 0px 0px 30px gray;
+    margin: -5px;
+}
+.value-dash .row{
+    height: 200px;
+}
+.value-dash h1{
+    color: white;
+}
+.value-dash button{
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 160px;
+}
+/*about life dash*/
+.about-dash{
+    background-color: white;
+    height: 200px;
+    box-shadow: 0px 0px 10px gray;
+    border-right: 10px solid rgb(247, 102, 6);
+}
+.about-dash:hover{
+    box-shadow: 0px 0px 30px gray;
+    margin: -5px;
+}
+.about-dash .row{
+    height: 200px;
+}
+.about-dash h1{
+    color:  rgb(8, 53, 95);
+    font-weight: bold;
+}
+.about-dash button{
+    background: none;
+    border: none;
+    color:  rgb(8, 53, 95);
+    cursor: pointer;
+    margin-top: 160px;
+}
+/*product*/
+.title-about{
+    color: rgb(8, 53, 95);
+}
+.see-more i{
+    background: rgb(247, 102, 6);
+    border-radius: 0.5rem;
+    padding: 1px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.see-more span{
+    cursor: pointer;
+}
+
+/*Phillip life dash*/
+.save-dash{
+    background-color: rgb(8, 53, 95);
+    height: 200px;
+    box-shadow: 0px 0px 10px gray;
+    border-right: 10px solid rgb(247, 102, 6);
+   
+}
+.save-dash:hover{
+    box-shadow: 0px 0px 30px gray;
+    margin: -5px;
+}
+.save-dash .row{
+    height: 200px;
+
+}
+.save-dash img{
+   object-fit: cover;
+   height: 200px;
+   width: 100%;
+   position: relative;
+   left: -12px;
+}
+.save-dash h1{
+    color: white;
+}
+.save-dash button{
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 160px;
+}
+/*mission life dash*/
+.protect-dash{
+    background-color: white;
+    height: 200px;
+    box-shadow: 0px 0px 10px gray;
+    border-right: 10px solid rgb(247, 102, 6);
+}
+.protect-dash:hover{
+    box-shadow: 0px 0px 30px gray;
+    margin: -5px;
+}
+.protect-dash .row{
+    height: 200px;
+}
+.protect-dash img{
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    left: -12px;
+ }
+.protect-dash h1{
+    color:  rgb(8, 53, 95);
+    font-weight: bold;
+}
+.protect-dash button{
+    background: none;
+    border: none;
+    color:  rgb(8, 53, 95);
+    cursor: pointer;
+    margin-top: 160px;
+}
+/*solve life dash*/
+.solve-dash{
+    background-color: rgb(8, 53, 95);
+    height: 200px;
+    box-shadow: 0px 0px 10px gray;
+    border-right: 10px solid rgb(247, 102, 6);
+}
+.solve-dash:hover{
+    box-shadow: 0px 0px 30px gray;
+    margin: -5px;
+}
+.solve-dash .row{
+    height: 200px;
+}
+.solve-dash img{
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    left: -12px;
+ }
+.solve-dash h1{
+    color: white;
+}
+.solve-dash button{
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 160px;
+}
+/*box-1 section*/
+.box-dash{
+    text-align: center;
+}
+.box-1:hover{
+    box-shadow: 0px 0px 30px gray;
+    margin: -5px;
+   
+}
+
+.box-dash h4{
+    color: rgb(8, 53, 95);
+    font-weight: bold;
+}
+.box-dash button{
+    background: none;
+    border: none;
+    color:  rgb(8, 53, 95);
+    cursor: pointer;
+    margin-top: 160px;
+}
+.box-dash .box-1{
+    box-shadow: 0px 0px 10px gray;
+    border-right: 10px solid rgb(247, 102, 6);
+    
+}
+/*box 2 section*/
+.box-2:hover{
+    box-shadow: 0px 0px 30px gray;
+    margin: -5px;
+}
+.box-dash .box-2{
+    box-shadow: 0px 0px 10px gray;
+    border-right: 10px solid rgb(247, 102, 6);
+}
+
+/*footer*/
+.footer-1{
+    background:  rgb(8, 53, 95);
+    align-items: center;
+    padding: 30px;
+}
+.footer-1 .row{
+    justify-content: space-between;
+}
+.footer-1 h5{
+    color: white;
+    font-weight: bold;
+}
+.footer-1 span{
+    color: rgb(241, 97, 0);
+    font-weight: bold;
+}
+.footer-1 .mail a{
+    text-decoration: none;
+    color: white;
+}
+.footer-1 .logo button{
+    background: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 2rem;
+}
+.footer-1 .logo i{
+    align-items: center;
+}
+.footer-1 .logo .active{
+    color: rgb(241, 97, 0);
+}
+.footer-1 .second h5{
+    color: white;
+}
+.footer-1 .second span{
+    color:  white;
+    margin-top: 10px;
+}
+.footer-1 ul li{
+    list-style-type: none;
+}
+.footer-1 ul a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*footer2*/
+.footer-2{
+    background-color: rgb(241, 97, 0);
+    padding: 20px;
+}
+.footer-2 span{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
